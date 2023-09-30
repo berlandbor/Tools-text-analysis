@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анализ удобочитаемости текста</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Анализ удобочитаемости текста</h1>
+        <p>Введите ваш текст ниже, и мы проанализируем его на удобочитаемость.</p>
+        <textarea id="textInput" placeholder="Вставьте ваш текст сюда..."></textarea>
+        <button onclick="calculateReadability()">Анализировать</button>
+        <div id="res">
+        <ul id="result"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
