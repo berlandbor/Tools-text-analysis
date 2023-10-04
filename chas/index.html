@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анализатор текста</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Инструмент для анализа повторяемости слов в тексте.</h1>
+        <textarea id="textInput" placeholder="Введите ваш текст..."></textarea>
+        <button onclick="analyzeText()">Анализировать</button>
+        <div id="totalWords">Общее количество слов: <span>0</span></div>
+        <div id="output"></div>
+        <canvas id="wordChart"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
